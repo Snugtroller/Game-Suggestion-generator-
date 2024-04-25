@@ -71,14 +71,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-
-
-
-https://github.com/Snugtroller/Game-Suggestion/assets/113275985/151279f5-a67d-4bb9-b358-0ce0a6a199af
-
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+https://github.com/Snugtroller/Game-Suggestion/assets/113275985/151279f5-a67d-4bb9-b358-0ce0a6a199af
