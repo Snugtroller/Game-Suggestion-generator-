@@ -1,0 +1,188 @@
+.title {
+    margin-top: 2vw;
+    font-size: 3vw;
+    color: white;
+    font-weight: 500;
+  position: relative;
+  text-decoration: none;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #d699ff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .4s ease-in-out;
+  }
+  
+.title:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+.about {
+    margin-left: 2vw;
+    margin-top: 3vw;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.text-box {
+    margin-left: 3vw;
+    margin-top: 3vw;
+    height: 3vw;
+    width: 90vw;
+    border: none;
+    border-radius: 2vw;
+    font-size: 2vw;
+    background-color: rgb(145, 141, 176);
+    -webkit-transition: 0.5s ;
+  transition: 0.5s ;
+  outline: none;
+}
+.text-box:hover{
+    border: 5px solid#d699ff;
+}
+
+.title img {
+    height: 4vw;
+    width: 4vw;
+    margin-left: 2vw;
+    margin-right: 25vw;
+}
+
+.dropdown {
+    margin-left: 3vw;
+    width: 90vw;
+    border-radius: 2vw;
+}
+
+.button {
+    font-weight: 700;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    color: rgb(0, 0, 0);
+    background-color: rgb(145, 141, 176);
+    height: 4vw;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.button a {
+    margin-top: 1.3vw;
+}
+
+.button:hover {
+    background-color:  #d699ff;
+}
+.recommendations {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.recommendations h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #d699ff; 
+}
+
+.recommendations ul {
+    list-style-type: none;
+    padding: 0;
+}
+.socials h2{
+    color:#d699ff ;
+    margin-left: 700px;
+    font-size: 30px;
+}
+.recommendations li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #cccccc; 
+}
+.logo-border {
+    margin-top: 10px;
+    margin-left: 450px;
+    height: 100px;
+    width: 600px;
+    display: flex; /* Make the social links display in a row */
+    justify-content: center; /* Center the social links horizontally */
+    align-items: center; /* Center the social links vertically */
+  }
+  
+  .social-links a {
+    margin: 0 20px; /* Adjust spacing between the social icons */
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
+  .social-links a .fa-icon {
+    font-size: 40px; /* Adjust the size of the icons */
+  }
+  
+  /* Adjust colors for specific icons */
+  .fa-linkedin {
+    color: #0a66c2; /* LinkedIn color */
+    height: 40px;
+  }
+  
+  .fa-github {
+    color: #333; /* GitHub color */
+    height: 40px;
+  }
+  
+  .fa-instagram {
+    color: #bc2a8d; /* Instagram color */
+    height: 40px;
+  }
+  
+  .fa-twitter {
+    color: #1da1f2; /* Twitter color */
+    height: 40px;
+  }
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 5vw;
+    }
+
+    .about {
+        font-size: 3vw;
+    }
+
+    .text-box {
+        height: 10vw;
+        width: 90vw;
+        font-size: 4vw;
+    }
+
+    .title img {
+        height: 8vw;
+        width: 8vw;
+        margin-right: 10vw;
+    }
+
+    .dropdown {
+        width: 90vw;
+    }
+
+    .button {
+        height: 10vw;
+        width: 20vw;
+    }
+
+    .button a {
+        margin-top: 2vw;
+    }
+}
