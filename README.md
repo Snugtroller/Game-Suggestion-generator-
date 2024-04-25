@@ -3,6 +3,7 @@ This website helps you to find the games related to the game which the user sele
 https://www.kaggle.com/datasets/nikdavis/steam-store-games?select=steam.csv
 
 This is the link to the dataset and after we run the ML model, make sure to copy paste the similarity.pkl in the same folder as components. (As github has a file size limit)
+Make sure you download all the dependencies which are required.
 
 
 # Getting Started with Create React App
